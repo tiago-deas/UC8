@@ -23,7 +23,7 @@ if (idade >= 18) {
 }
 
 /*Na terceira parte eu peço ao usuário para escolher um evento com um palestrante 
-em específico para checar se a palestra não está cheia. Eu poderia ter feito um Array em uma vaiável nessa parte 
+em específico para checar se a palestra não está cheia. Eu poderia ter feito um Array em uma variável nessa parte 
 com uma quantidade x de participantes e logo após estabelecer outra variável com um limite máximo
 de pessoas por evento, mas eu optei por usar o Switch e atribuir implicitamente se os eventos estão cheios ou não 
 para simular um uso real do aplicativo*/
