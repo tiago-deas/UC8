@@ -28,29 +28,9 @@ com uma quantidade x de participantes e logo após estabelecer outra variável c
 de pessoas por evento, mas eu optei por usar o Switch e atribuir implicitamente se os eventos estão cheios ou não 
 para simular um uso real do aplicativo*/
 
-var evento = "#4";
-console.log(evento);
-switch(evento){
-    case "#1":
-         return console.log("Atenção! O número de participantes excedeu o limite no evento #1 -Escolha outro evento-")
-        break;
-    case "#2":
-        console.log("Parabéns! Cadastro Realizado com Sucesso no evento #2!")
-        break;
-    case "#3":
-         return console.log("Atenção! O número de participantes excedeu o limite no evento #3 -Escolha outro evento-")
-        break;
-    case "#4":
-        console.log("Parabéns! Cadastro Realizado com Sucesso no evento #4!")
-        break;
-    case "#5":
-        console.log("Parabéns! Cadastro Realizado com Sucesso no evento #5!")
-        break;
-    case "#6":
-         return console.log("Atenção! O número de participantes excedeu o limite no evento #6 -Escolha outro evento-")
-        break;
-    case "#7":
-         return console.log("Atenção! O número de participantes excedeu o limite no evento #7 -Escolha outro evento-")
-        break;
-
-}
+var evento = ["pessoa1", "pessoa2", "pessoa3", "pessoa4", "pessoa5", "pessoa6", "pessoa7"];
+ if (evento.length < 100){
+     console.log("Cadastro realizado com sucesso!");
+      } else {
+          return console.log("Atenção! O número de participantes excedeu o limite - Escolha outro Evento -")
+      }
