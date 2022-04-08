@@ -5,5 +5,5 @@ Repository of the UC9 from SENAI where I needed to create a flowchart and apply 
 
 <h1>👇</h1>
 
-<h3>The Flowchart is available in two different image formats, jpg, and png.</h3>
+<h3>The Flowchart is available in two different image formats, jpg, and html.</h3>
 
